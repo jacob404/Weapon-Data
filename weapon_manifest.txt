@@ -1,0 +1,31 @@
+weapon_manifest
+{
+	"file"		"scripts/weapon_boomer_claw.txt"
+	"file"		"scripts/weapon_hunter_claw.txt"
+	"file"		"scripts/weapon_charger_claw.txt"
+	"file"		"scripts/weapon_smoker_claw.txt"
+	"file"		"scripts/weapon_tank_claw.txt"
+	
+	"file"		"scripts/weapon_molotov.txt"
+	"file"		"scripts/weapon_pipe_bomb.txt"
+	"file"		"scripts/weapon_pistol.txt"
+	"file"		"scripts/weapon_first_aid_kit.txt"
+	"file"		"scripts/weapon_melee.txt"
+	
+	// Restore after E3
+	//"file"		"scripts/weapon_pumpshotgun.txt"
+	//"file"		"scripts/weapon_rifle.txt"
+	//"file"		"scripts/weapon_smg.txt"
+	//"file"		"scripts/weapon_hunting_rifle.txt"
+	//"file"		"scripts/weapon_autoshotgun.txt"
+	
+	"file"		"scripts/weapon_smg_silenced.txt"
+	"file"		"scripts/weapon_rifle_desert.txt"
+	"file"		"scripts/weapon_shotgun_chrome.txt"
+	"file"		"scripts/weapon_shotgun_spas.txt"
+	"file"		"scripts/weapon_sniper_military.txt"
+	"file"		"scripts/weapon_pistol_magnum.txt"
+
+	"file"		"scripts/weapon_chainsaw.txt"
+	
+}

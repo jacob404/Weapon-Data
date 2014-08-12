@@ -1,0 +1,1 @@
+A quick compilation of all the weapon files. Just figured it would be nice to have it uploaded somewhere.

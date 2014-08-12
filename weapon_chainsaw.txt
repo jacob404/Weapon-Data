@@ -1,0 +1,99 @@
+WeaponData
+{
+	"VerticalPunch"			"2.0"
+	"DeployDuration"		"0.5"
+	"AddonAttachment"		"melee"
+	"addon_angles"			"180 0 -90"
+	"addon_offset"			"6 3 -2.2"
+
+	"MaxPlayerSpeed"		"250"
+	"WeaponType"			"chainsaw"
+	"WeaponArmorRatio"		"1.0"
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance" 	"3"
+	"Team" 					"Survivor"
+	"BuiltRightHanded" 		"1"
+	"PlayerAnimationExtension" 	"pistol"
+	
+	"Tier"					"0"		// valid entries are 0, 1, 2
+	
+	"NewInL4D2"				"1"
+
+	"Rumble"			"1"
+	
+	"Damage"			"36"
+	"CycleTime"			"0.175"
+	
+	"ResponseRulesName"		"Chainsaw"
+	
+	"printname"			"_chainsaw_"
+	
+	"viewmodel"			"models/weapons/melee/v_chainsaw.mdl"
+	"playermodel"		"models/weapons/melee/w_chainsaw.mdl"
+	
+	"CharacterViewmodelAddon"
+	{
+		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
+		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
+		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
+		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
+	}
+
+	"anim_prefix"			"anim"
+	"bucket"			"1"
+	"bucket_position"		"1"
+	
+	"clip_size"			"30"
+
+	"primary_ammo"			"AMMO_TYPE_CHAINSAW"
+	"secondary_ammo"		"None"
+
+	"weight"				"5"
+	"item_flags"			"0"
+
+	"ITEM_FLAG_NOAUTORELOAD" "1"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"384"
+				"y"			"384"
+				"width"		"128"
+				"height"	"64"	
+		}
+		"weapon_dual"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"192"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
+		}
+		"ammo"
+		{
+				"font"		"DebugFixed"
+				"character"	"A"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-7 -4 -14"
+			Maxs	"24 9 -2"
+		}
+		World
+		{
+			Mins	"-1 -4 -3"
+			Maxs	"17 5 6"
+		}
+	}
+}

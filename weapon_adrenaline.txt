@@ -1,0 +1,134 @@
+WeaponData
+{
+	"MaxPlayerSpeed"			"250"
+	"WeaponType"				"healing"
+	"WeaponPrice"				"300"
+	"WeaponArmorRatio"			"1"
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance"	"3"
+	"Team"						"Survivor"
+	"BuiltRightHanded"			"1"
+	"PlayerAnimationExtension" 	"gren"
+	"MuzzleFlashScale"			"0"
+	"MuzzleFlashStyle"			"CS_MUZZLEFLASH_NONE"
+
+	"Tier"						"0"		// valid entries are 0, 1, 2
+	
+	"ResponseRulesName"			"Adrenaline"
+	
+	// Used in the music system when this weapon fires
+	"MusicDynamicSpeed"			"2"
+	
+	"DisplayName"				"#L4D_Weapon_Adrenaline"
+	"DisplayNameAllCaps"		"#L4D_Weapon_Adrenaline_CAPS"
+
+	"CanEquipWithShield"		"1"
+	"AddonModel"				"models/w_models/weapons/w_eq_adrenaline.mdl"
+	"AddonAttachment"			"pills"
+	"addon_offset"			"-0.5 0 0"
+	"addon_angles"			"-16 30 -80"	
+
+	// Weapon characteristics:
+	"Penetration"				"1"
+	"Damage"					"50"
+	"Range"						"4096"
+	"RangeModifier"				"0.99"
+	"Bullets"					"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"_ Adrenaline _"
+	
+	"playermodel"				"models/w_models/weapons/w_eq_adrenaline.mdl"
+	"viewmodel"					"models/v_models/v_adrenaline.mdl"
+	"CharacterViewmodelAddon"
+	{
+		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
+		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
+		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
+		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
+	}
+	
+	"anim_prefix"				"anim"
+	"bucket"					"4"
+	"bucket_position"			"1"
+
+	"clip_size"					"-1"
+	"default_clip"				"1"
+	"primary_ammo"				"AMMO_TYPE_ADRENALINE"
+	"secondary_ammo"			"None"
+
+	"weight"					"2"
+	"item_flags"				"0"
+	"ITEM_FLAG_NOAMMOPICKUPS"	"1"
+
+	"LoadoutSlots"	"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"	"PainPills.Use"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"384"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"	
+		}
+		"weapon_s"
+		{
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"384"
+				"y"			"64"
+				"width"		"64"
+				"height"	"64"	
+		}
+		"weapon_small"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"448"
+				"y"			"480"
+				"width"		"32"
+				"height"	"32"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-6 -9 -15"
+			Maxs	"15 11 0"
+		}
+		World
+		{
+			Mins	"-20 -20 -20"
+			Maxs	"20 20 20"
+		}
+		Addon
+		{
+			Mins	"-20 -20 -20"
+			Maxs	"20 20 20"
+		}
+	}
+}
